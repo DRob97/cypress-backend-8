@@ -7,6 +7,7 @@ module.exports = defineConfig({
   viewportWidth: 1980,
 
   env: {
+    baseUrl: 'https://tech-global-training.com/students',
     'oracleDB': {
       'user': process.env.DB_USERNAME,
       'password': process.env.DB_PASSWORD,
